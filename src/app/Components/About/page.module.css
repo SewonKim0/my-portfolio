@@ -21,6 +21,10 @@ div.text > h3 {
 
 /* Image */
 div.image {
-    margin: 1em;
     width: 40%;
+    border: 1px solid white;
+    border-radius: 1em;
+
+    overflow: hidden;
+    margin: 1em;
 }
