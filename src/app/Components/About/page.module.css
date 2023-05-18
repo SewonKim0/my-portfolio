@@ -1,0 +1,26 @@
+/* About */
+div.about {
+    background-color: var(--main);
+    width: 80%;
+    border-radius: 1em;
+
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* Text */
+div.text {
+    margin: 1em;
+    width: 60%;
+}
+div.text > h3 {
+    margin-bottom: 0.3em;
+}
+
+/* Image */
+div.image {
+    margin: 1em;
+    width: 40%;
+}
