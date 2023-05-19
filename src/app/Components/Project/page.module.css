@@ -1,0 +1,55 @@
+/* Project */
+div.project {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 90%;
+    border-radius: 1em;
+
+    margin-bottom: 1em;
+}
+
+/* Content */
+div.content {
+    margin: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Text */
+div.text {
+    width: 60%;
+}
+div.text > p {
+    font-size: 0.8em;
+}
+/* Text: Icons */
+div.text > div {
+    display: flex;
+    flex-direction: row;
+}
+div.text > div > div {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 0.3em;
+    border: 1px solid white;
+    background-color: white;
+
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.text > div > div:hover {
+    opacity: 0.7;
+}
+
+/* Image */
+div.image {
+    width: 40%;
+    border: 1px solid white;
+}

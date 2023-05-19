@@ -1,0 +1,21 @@
+/* Projects */
+div.projects {
+    background-color: var(--main);
+    border-radius: 1em;
+    width: 80%;
+
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: column;
+}
+div.projects > h2 {
+    margin: 1em;
+}
+
+/* Project List */
+div.projects > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Album 5",
+        "description": "A 12 song album inspired by my various experiences during the first semester of NYU.",
+        "imgPath": "/Albums/album5.jpg"
+    },
+
+    {
+        "name": "Album 4",
+        "description": "A 16 song album inspired by the summer season in rural New Jersey. Made after my senior year of high school.",
+        "imgPath": "/Albums/album4.jpg"
+    },
+
+    {
+        "name": "Album 3",
+        "description": "This album was revolutionary to my development as a composer and has changed my style of composing ever since",
+        "imgPath": "/Albums/album3.jpg"
+    }
+]
