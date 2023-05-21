@@ -52,3 +52,22 @@ div.icons > a {
 div.icons > a:hover {
     opacity: 0.7;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    /* Resize Header */
+    div.header {
+        width: 60%;
+    }
+}
+
+@media (min-width: 800px) {
+    /* Resize Header */
+    div.header {
+        width: 50%;
+    }
+    /* Rearrange Icons */
+    div.icons {
+        justify-content: space-evenly;
+    }
+}

@@ -83,7 +83,9 @@ export default function Albums() {
                 "Loading..." : 
                 albumList[albumIndex].name + ": "} 
             </span> 
-            A 12 song album inspired by my various experiences during the first semester of NYU. 
+            {albumList === null ? 
+            "Loading..." :
+            albumList[albumIndex].description}
         </p>
     </div>
 }

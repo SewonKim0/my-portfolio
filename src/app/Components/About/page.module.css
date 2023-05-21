@@ -28,3 +28,17 @@ div.image {
     overflow: hidden;
     margin: 1em;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    /* Resize Container */
+    div.about {
+        width: 60%;
+    }
+}
+@media (min-width: 800px) {
+    /* Resize Container */
+    div.about {
+        width: 50%;
+    }
+}

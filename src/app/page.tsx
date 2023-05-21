@@ -5,11 +5,9 @@ import Skills from "./Components/Skills/page";
 import Albums from "./Components/Albums/page";
 import Projects from "./Components/Projects/page";
 
-//finish all sections
-  //albums: api fetch content
   //albums: sliding window animation
 //responsive design
-//animation?
+//scroll animation?
 
 export default function Home() {
   return (<div className={styles.home}>

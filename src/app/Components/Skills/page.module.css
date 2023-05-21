@@ -43,3 +43,17 @@ div.icons > div {
 div.icons > div:hover {
     opacity: 0.7;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    /* Resize Container */
+    div.skills {
+        width: 60%;
+    }
+}
+@media (min-width: 800px) {
+    /* Resize Container */
+    div.skills {
+        width: 50%;
+    }
+}

@@ -63,3 +63,17 @@ div.options > div {
 div.albums > p > span {
     font-weight: bold;
 }
+
+/* Media Query: Responsive Design */
+@media (min-width: 600px) {
+    /* Resize Container */
+    div.albums {
+        width: 60%;
+    }
+}
+@media (min-width: 800px) {
+    /* Resize Container */
+    div.albums {
+        width: 50%;
+    }
+}
