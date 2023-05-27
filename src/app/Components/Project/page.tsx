@@ -16,15 +16,12 @@ export interface IconMap {
 
 //interface: project props
 interface ProjectProps {
-    data: ProjectData | null;
+    data: ProjectData;
     iconMap: IconMap | null;
 }
 
 const Project: NextPage<ProjectProps> = ({data, iconMap}) => {
     //unpack data
-    if (data === null) {
-        return <p> ERROR: DATA IS NULL </p>;
-    }
     let {name, text, imgPath, icons, url} = data;
 
     return <div className={styles.project}>

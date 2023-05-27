@@ -8,9 +8,8 @@ import { useEffect, useState } from "react";
 export default function Projects() {
     //iconMap: useState
     let [iconMap, setIconMap] = useState<IconMap | null>(null);
-
     //projectList: useState
-    let [projectList, setProjectList] = useState<ProjectData[] | null>(null);
+    let [projectList, setProjectList] = useState<ProjectData[] | undefined>();
 
     useEffect(() => {
         async function setData() {
@@ -41,16 +40,18 @@ export default function Projects() {
 
         {/* Project List */}
         <div>
-            {projectList === null || iconMap === null ? 
-            //if null: show loading message
-            <p> Loading... </p> : 
-            //else: show projects in projectList
-            projectList.map((data: ProjectData) => {
+            {projectList === undefined ?
+            //if projectList undef: Loading message
+            <p> Loading... </p> :
+            //else: Render projectList
+            projectList.map((data: ProjectData, index: number) => {
                 return <Project
                     data={data}
                     iconMap={iconMap}
+                    key={index}
                 />
-            })}
+            })
+            }
         </div>
     </div>
 }
