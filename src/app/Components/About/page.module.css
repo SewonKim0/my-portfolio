@@ -35,10 +35,28 @@ div.image {
     div.about {
         width: 60%;
     }
+    /* Text: Font Size */
+    div.text > p {
+        font-size: 1.1em;
+    }
+    /* Image: Size Adjust */
+    div.image {
+        width: 35%;
+    }
 }
 @media (min-width: 800px) {
     /* Resize Container */
     div.about {
         width: 50%;
+    }
+    /* Text: Font Size */
+    div.text > p {
+        font-size: 1.2em;
+    }
+}
+@media (min-width: 1000px) {
+    /* Image: Size Adjust */
+    div.image {
+        width: 30%;
     }
 }

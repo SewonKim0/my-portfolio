@@ -76,4 +76,9 @@ div.albums > p > span {
     div.albums {
         width: 50%;
     }
+    /* Resize Text Container */
+    div.albums > p {
+        width: 70%;
+        margin-left: 15%;
+    }
 }

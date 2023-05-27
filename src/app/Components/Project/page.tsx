@@ -1,11 +1,30 @@
 import styles from "./page.module.css";
+import { NextPage } from "next";
 
-export default function Project(props: Object) {
-    //props
-    if (props === undefined) {
-        return <p> Loading... </p>;
+//interface: project data
+export interface ProjectData {
+    name: string;
+    text: string;
+    imgPath: string;
+    icons: string[];
+    url:  string;
+}
+//interface: iconMap
+export interface IconMap {
+    [name: string]: string;
+}
+
+//interface: project props
+interface ProjectProps {
+    data: ProjectData | null;
+    iconMap: IconMap | null;
+}
+
+const Project: NextPage<ProjectProps> = ({data, iconMap}) => {
+    //unpack data
+    if (data === null) {
+        return <p> ERROR: DATA IS NULL </p>;
     }
-    let {data, iconMap} = props;
     let {name, text, imgPath, icons, url} = data;
 
     return <div className={styles.project}>
@@ -47,3 +66,5 @@ export default function Project(props: Object) {
         </div>
     </div>
 }
+
+export default Project;

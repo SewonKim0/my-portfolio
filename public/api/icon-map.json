@@ -1,0 +1,13 @@
+{
+    "react": "/Icons/Front-End/react.webp",
+    "next": "/Icons/Front-End/next.jpg",
+    "ts": "/Icons/Front-End/ts.png",
+    "js": "/Icons/Front-End/js.png",
+    "node": "/Icons/Front-End/node.webp",
+    "css": "/Icons/Front-End/css.png",
+    "html": "/Icons/Front-End/html.jpg",
+    "cpp": "/Icons/Languages/cpp.png",
+    "cs": "/Icons/Languages/cs.jpg",
+    "java": "/Icons/Languages/java.png",
+    "python": "/Icons/Languages/python.png"
+}

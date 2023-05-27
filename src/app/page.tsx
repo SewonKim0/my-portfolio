@@ -6,8 +6,9 @@ import Albums from "./Components/Albums/page";
 import Projects from "./Components/Projects/page";
 
   //albums: sliding window animation
-//responsive design
-//scroll animation?
+  //scroll animation?
+//albums: link data fetching
+//skills: data fetching for icons
 
 export default function Home() {
   return (<div className={styles.home}>

@@ -24,6 +24,7 @@ div.icons {
     flex-direction: row;
     align-items: center;
 }
+
 /* Icon */
 div.icons > div {
     width: 1.5em;
@@ -55,5 +56,12 @@ div.icons > div:hover {
     /* Resize Container */
     div.skills {
         width: 50%;
+    }
+}
+@media (min-width: 1000px) {
+    /* Adjust Icon Size */
+    div.icons > div {
+        width: 2em;
+        height: 2em;
     }
 }
